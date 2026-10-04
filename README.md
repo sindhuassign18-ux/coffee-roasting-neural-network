@@ -1,13 +1,9 @@
 # Coffee Roasting Classification using Neural Network
-
 This is a small machine learning project I built while learning the basics of **Neural Networks and TensorFlow**.
-
 The idea is simple: based on the **temperature** and **roasting time**, the model predicts whether the coffee is likely to be a **Good Roast** or a **Bad Roast**.
 
 ## What I learned
-
 While building this project, I practiced:
-
 * Creating and working with a dataset using NumPy
 * Visualizing data using Matplotlib
 * Normalizing input features
@@ -19,16 +15,12 @@ While building this project, I practiced:
 * Visualizing the model's predictions
 
 ## Neural Network
-
 The model has:
-
-```text
 2 Input Features
       ↓
 3 Neurons (Hidden Layer)
       ↓
 1 Output Neuron
-```
 
 The two input features are:
 
@@ -36,14 +28,10 @@ The two input features are:
 * Roasting Duration (minutes)
 
 The output represents:
-
-```text
 1 → Good Roast
 0 → Bad Roast
-```
 
 ## Technologies I Used
-
 * Python
 * NumPy
 * Matplotlib
@@ -51,7 +39,6 @@ The output represents:
 * Keras
 
 ## Model Settings
-
 * Hidden layer: 3 neurons
 * Activation: Sigmoid
 * Output layer: 1 neuron
@@ -62,7 +49,6 @@ The output represents:
 
 ## Project Workflow
 
-```text
 Data
  ↓
 Visualization
@@ -78,10 +64,8 @@ Check Weights & Biases
 Test with New Data
  ↓
 Make Predictions
-```
 
 ## Note
-
 This project uses a small dataset created for learning purposes. The goal of this project was to understand how a simple neural network works rather than to build a real-world coffee roasting system.
 
 This was one of my learning projects as I continue building my foundation in **Machine Learning and AI**.
